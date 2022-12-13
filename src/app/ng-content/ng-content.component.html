@@ -1,0 +1,13 @@
+<h2>ngContent</h2>
+
+<div class="card">
+    <div class="card-header">
+      <!-- Título -->
+      <ng-content select=".tituto"></ng-content>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">
+            <ng-content select=".content"></ng-content>
+        </li>
+    </ul>
+  </div>
